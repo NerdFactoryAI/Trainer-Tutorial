@@ -1,20 +1,19 @@
 # Trainer-Tutorial
 
 이미지 분류기 학습을 위한 Tutorial Repository 입니다.
+
 Pytorch 프레임워크 기반으로 작성된 VGGNet 모델을 활용하여, 이미지 분류기를 학습합니다.
 
 ## 초기 구성
 
 저장소의 Repository 에는 다음과 같이 `*` 표시된 경로/파일들이 빠져있습니다.
+
 ( 학습용 데이터 미 세팅시 모델이 동작하지 않습니다 )
 
 ### Skeleton
 
 ```
 └── /Trainer-Tutorial
-    │
-    ├── /bin
-    │   └── run_trainer.sh
     │
     ├── /datasets
 *   │   ├── /train (train_dataset)      # 학습용 데이터
